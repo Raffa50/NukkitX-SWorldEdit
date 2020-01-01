@@ -1,0 +1,17 @@
+name: SWorldEdit
+main: aldrigos.mc.worldedit.WorldEditPlugin
+version: "0.1.0.0"
+api: ["1.0.5"]
+load: STARTUP
+author: Aldrigo Raffaele
+description: Simple World Editor
+website: https://github.com/Raffa50/NukkitX-SWorldEdit
+prefix: "SimpleWorldEdit"
+
+permissions:
+  we.*:
+    default: op;
+    children:
+      we.help: true
+      we.wand: true
+      we.edit: true
