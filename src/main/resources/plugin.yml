@@ -6,7 +6,7 @@ load: STARTUP
 author: Aldrigo Raffaele
 description: Simple World Editor
 website: https://github.com/Raffa50/NukkitX-SWorldEdit
-prefix: "SimpleWorldEdit"
+prefix: "SWorldEdit"
 
 permissions:
   we.*:

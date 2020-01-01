@@ -36,11 +36,11 @@ public class WorldEditPlugin extends PluginBase {
         getServer().getPluginManager().registerEvents(new SelectionListener(this), this);
         getServer().getPluginManager().registerEvents(new PlayerWorldChangeListener(this), this);
 
-        getServer().getLogger().info("[WG]SimpleWorldEdit by Aldrigo R. ENABLED!");
+        getServer().getLogger().info("[SWorldEdit]SimpleWorldEdit by Aldrigo R. ENABLED!");
     }
 
     @Override
     public void onDisable(){
-        getServer().getLogger().info("[WG]disabled");
+        getServer().getLogger().info("[SWorldEdit]disabled");
     }
 }
